@@ -1,17 +1,17 @@
 {
-	"name": "unicorn-fun-cli",
-	"version": "0.0.0",
-	"description": "My awesome command-line tool",
+	"name": "cheatle",
+	"version": "0.0.1",
+	"description": "Gets the daily world right everytime",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun-cli",
+	"repository": "heyjordn/cheatle",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Jordan Jones",
+		"email": "proxima.aust@gmail.com",
+		"url": "https://heyjordn.com"
 	},
 	"type": "module",
 	"bin": {
-		"unicorn-fun": "cli.js"
+		"cheatle": "cli.js"
 	},
 	"engines": {
 		"node": ">=12"
@@ -25,11 +25,12 @@
 	"keywords": [
 		"cli",
 		"cli-app",
-		"unicorn",
+		"wordle",
 		"fun"
 	],
 	"dependencies": {
 		"meow": "^9.0.0",
+		"ora": "^6.0.1",
 		"unicorn-fun": "^0.0.0"
 	},
 	"devDependencies": {
