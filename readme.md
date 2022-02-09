@@ -1,4 +1,4 @@
-# cheatle
+# cheatle 🔮 
 
 > Get the daily wordle right everyday
 
@@ -11,15 +11,7 @@ $ npm install --global cheatle
 ## Usage
 
 ```
-$ cheatle --help
-
-  Usage
-    $ unicorn-fun [input]
-
-  Options
-    --postfix  Lorem ipsum  [Default: rainbows]
-
-  Examples
-    $ cheatle
-    unicorns & rainbows
+$ cheatle 
+  ✔Accessing quantum wordles
+  🔮Today's wordle is frame.
 ```

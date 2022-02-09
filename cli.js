@@ -6,13 +6,8 @@ import { wordles } from './wordles.js';
 const cli = meow(`
 	Usage
 	  $ cheatle 
-
-	Options
-	  --postfix  Lorem ipsum  [Default: rainbows]
-
-	Examples
-	  $ cli-name
-	  unicorns & rainbows
+		✔Accessing quantum wordles
+	    🔮Today's wordle is frame.
 `, {
 	flags: {
 		postfix: {
@@ -28,9 +23,9 @@ const cheatle = (startDate = new Date(2021,5,19,0,0,0,0), todaysDate = new Date)
   return wordles[Math.round(hoursPassed / 864e5)];
 }
 
-const spinner = ora({text:'Accessing quantum wordles'}).start()
+const spinner = ora({text:'Accessing quantum wordles', indent:2}).start()
 setTimeout(() => {
-	spinner.succeed("Accessing quantum wordles\n")
-	console.log(`🔮 Today's wordle is ${cheatle()}.`)
+	spinner.succeed("Accessing quantum wordles\t")
+	console.log(`  🔮Today's wordle is ${cheatle()}.`)
 }, 1000);
 
