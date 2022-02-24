@@ -1,6 +1,6 @@
 {
 	"name": "cheatle",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Gets the daily world right everytime",
 	"license": "MIT",
 	"repository": "heyjordn/cheatle",
@@ -12,8 +12,8 @@
 	"type": "module",
 	"source": "src/index.js",
 	"exports": {
-	  "require": "./dist/index.cjs",
-	  "default": "./dist/index.modern.js"
+		"require": "./dist/index.cjs",
+		"default": "./dist/index.modern.js"
 	},
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
@@ -25,9 +25,9 @@
 		"node": ">=12"
 	},
 	"scripts": {
-		"build": "microbundle",           
+		"build": "microbundle",
 		"dev": "microbundle watch"
-	  },
+	},
 	"files": [
 		"dist/**.js"
 	],
