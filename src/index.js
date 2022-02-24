@@ -8,14 +8,7 @@ const cli = meow(`
 	  $ cheatle 
 		✔Accessing quantum wordles
 	    🔮Today's wordle is frame.
-`, {
-	flags: {
-		postfix: {
-			type: 'string',
-			default: 'rainbows'
-		}
-	}
-});
+`);
 
 const cheatle = (startDate = new Date(2021,5,19,0,0,0,0), todaysDate = new Date) => {
 	const start = new Date(startDate);
